@@ -1,0 +1,8 @@
+<h1>My Artist</h1>
+
+<%= render 'form' %>
+
+
+genre = Genre.create(name: "pop")
+artist = Artist.create(name: "tina")
+song = Song.create(name: "song", artist_id: 1, genre_id: 1)
